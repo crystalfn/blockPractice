@@ -9,13 +9,16 @@ body {
 }
 
 .container aside {
+    overflow: hidden;
+}
+
+.container aside .img {
     background: url(../images/city.jpg);
     filter: blur(10px) opacity(0.9);
-    margin: -15px;
-    flex-grow: 0;
     width: 420px;
-    overflow: hidden;
-    z-index: 1;
+    height: 110%;
+    float: left;
+    margin: -15px;
 }
 
 .container section {
