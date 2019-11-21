@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+}
+
+.container aside {
+    background: url(../images/city.jpg);
+    background-repeat: no-repeat;
+    
+    flex-grow: 0;
+    width: 420px;
+}
+
+.container section {
+    flex-grow: 1;
+}
