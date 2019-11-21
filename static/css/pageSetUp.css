@@ -10,12 +10,16 @@ body {
 
 .container aside {
     background: url(../images/city.jpg);
-    background-repeat: no-repeat;
-    
+    filter: blur(10px) opacity(0.9);
+    margin: -15px;
     flex-grow: 0;
     width: 420px;
+    overflow: hidden;
+    z-index: 1;
 }
 
 .container section {
     flex-grow: 1;
+    z-index: 2;
+    background-color: #fff;
 }
