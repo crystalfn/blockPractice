@@ -77,30 +77,42 @@ aside {
   color: whitesmoke;
 }
 
-.sidebar-manu {
+.sidebar-manu-left {
   position: fixed;
   top: 40%;
-
   width: 30%;
-  padding: 0;
+  margin-left: -5%;
   margin-top: 3%;
 
-  font-size: 1.2em;
+  font-size: 1.1em;
   list-style-type: none;
 }
 
-.sidebar-manu li {
+.sidebar-manu-right {
+  position: fixed;
+  top: 40%;
+  width: 30%;
+  margin-left: 7.5%;
+  margin-top: 3%;
+
+  font-size: 1.1em;
+  list-style-type: none;
+}
+
+.sidebar-manu-left li,
+.sidebar-manu-right li {
   margin: 0 0 10% 25%;
 }
 
-.sidebar-manu li img {
+.sidebar-manu-left li img,
+.sidebar-manu-right li img {
   width: 10%;
   margin-bottom: -3%;
 }
 
-.sidebar-manu li a {
+.sidebar-manu-left li a,
+.sidebar-manu-right li a {
   text-align: left;
-
   padding: 25px;
 
   letter-spacing: 0.1ch;
