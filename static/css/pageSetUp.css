@@ -12,7 +12,7 @@ body {
 aside {
   overflow: hidden;
 
-  width: 30%;
+  width: 60%;
 }
 
 .img {
@@ -109,4 +109,44 @@ aside {
   font-weight: normal;
 
   color: #F2F3F4;
+}
+
+.main-article {
+  display: block;
+  font-family: sans-serif;
+  margin-top: 3%;
+  margin-left: 10%;
+  margin-right: 5%;
+}
+
+.main-headline {
+  color: #4a4a4a;
+  font-size: 32px;
+  font-weight: bolder;
+}
+
+.main-datetime {
+  color: #9eabb3;
+  font-size: 14px;
+  font-weight: normal;
+  margin-top: -2.5%;
+}
+
+.main-description {
+  display: flex;
+  color: #5d686f;
+  font-size: 18px;
+  font-weight: normal;
+  font-family: courier;
+}
+
+.main-article a {
+  display: block;
+  text-decoration: none;
+}
+
+.main-article img {
+  padding-top: 2%;
+  width: 98%;
+  height: 35%;
 }
