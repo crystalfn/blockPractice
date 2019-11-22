@@ -162,3 +162,64 @@ aside {
   width: 98%;
   height: 35%;
 }
+
+.list-article {
+  display: block;
+  font-family: sans-serif;
+  margin-top: 0;
+  margin-left: 10%;
+  margin-right: 6.6%;
+}
+
+.blog-block-up {
+  margin: 0;
+  display: inline;
+}
+
+.blog-block-down {
+  padding-left: 24.5%;
+  margin: 0;
+}
+
+.blog-block-up-left {
+  float: left;
+  width: 20%;
+  margin-top: 15px;
+  margin-right: 10px;
+}
+.blog-block-up-right {
+  float: right;
+  width: 78%;
+}
+
+.blog-img {
+  width: 20%;
+  height: 15%;
+  margin-left: 20px ;
+  margin-top: 5px;
+  margin-right: 10px;
+  padding: 0;
+}
+.blog-title {
+  width: 70%;
+  height: 5%;
+  margin-left: 20px;
+}
+.blog-date {
+  width: 70%;
+  height: 5%;
+  margin-left: 20px;
+  color: #9eabb3;
+  font-size: 14px;
+  font-weight: normal;
+  /* margin-top: -2.5%; */
+}
+.blog-para {
+  width: 95%;
+  height: 12%;
+  margin-left: 20px;
+  color: #5d686f;
+  font-size: 18px;
+  font-weight: normal;
+  font-family: courier;
+}
