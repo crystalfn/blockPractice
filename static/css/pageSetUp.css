@@ -12,7 +12,7 @@ body {
 aside {
   overflow: hidden;
 
-  width: 60%;
+  width: 100%;
 }
 
 .img {
@@ -170,7 +170,7 @@ aside {
   margin-top: 0;
   margin-left: 10%;
   margin-right: 6.6%;
-  width: 83.3%; 
+  width: 83.3%;
   height: 30%;
 }
 
@@ -181,7 +181,7 @@ aside {
 
 .blog-block-down {
   padding-left: 3.7%;
-} 
+}
 
 .blog-block-up-left {
   float: left;
@@ -228,7 +228,7 @@ aside {
 .blog-paragraph {
   width: 95%;
   height: 40%;
-  
+
   margin-left: 20px;
   color: #5d686f;
   font-size: 18px;
