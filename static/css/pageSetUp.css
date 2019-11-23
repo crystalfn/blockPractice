@@ -172,20 +172,15 @@ aside {
   margin-right: 6.6%;
   width: 83.3%; 
   height: 30%;
-  /* overflow: scroll; */
 }
 
- /* .blog-block-up {
-  margin: 0;
-  display: inline;
-
-} */
+.list-article a {
+  display: block;
+  text-decoration: none;
+}
 
 .blog-block-down {
   padding-left: 3.7%;
-  /* margin: 0; */
-  /* margin-top: 2.5%; */
-
 } 
 
 .blog-block-up-left {
@@ -194,6 +189,7 @@ aside {
   margin-top: 15px;
   margin-right: 10px;
 }
+
 .blog-block-up-right {
   float: left;
   width: 78%;
@@ -203,29 +199,36 @@ aside {
 .blog-img {
   width: 20%;
   height: 15%;
+
   margin-left: 20px ;
   margin-top: 5px;
   margin-right: 10px;
   padding: 0;
 }
+
 .blog-title {
   width: 70%;
   height: 15%;
+
   margin-left: 20px;
   margin-top: -1%;
 }
+
 .blog-date {
   width: 70%;
   height: 15%;
+
   margin-left: 20px;
   color: #9eabb3;
   font-size: 14px;
   font-weight: normal;
   margin-top: 1.5%;
 }
-.blog-para {
+
+.blog-paragraph {
   width: 95%;
   height: 40%;
+  
   margin-left: 20px;
   color: #5d686f;
   font-size: 18px;
