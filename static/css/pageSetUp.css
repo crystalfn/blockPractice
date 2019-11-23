@@ -120,12 +120,12 @@ aside {
   font-family: "sans-serif";
   font-weight: normal;
 
-  color: #F2F3F4;
+  color: #f2f3f4;
 }
 
 .main-article {
   display: block;
-  font-family: sans-serif;
+  font-family: "sans-serif";
   margin-top: 3%;
   margin-left: 10%;
   margin-right: 5%;
@@ -149,7 +149,7 @@ aside {
   color: #5d686f;
   font-size: 18px;
   font-weight: normal;
-  font-family: courier;
+  font-family: "courier";
 }
 
 .main-article a {
