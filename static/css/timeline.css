@@ -28,11 +28,11 @@ body {
 
 .first-article li:last-child {
   padding-left: 55%;
-  margin-top: -15%
+  margin-top: -15%;
 }
 
 .second-article li:first-child{
-  padding-right: 55%;
+  width: 150px;
 }
 
 .second-article li:last-child {
@@ -53,21 +53,24 @@ body {
 }
 
 .first-date {
+  width: 150px;
   font-size: 14px;
-  background: -webkit-linear-gradient(top, #fafafa, #0400ff);
+  background-image: linear-gradient(to right, deeppink, dodgerblue);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: transparent;
   text-align: left;
   font-weight: bold;
 }
 
 .second-date {
   font-size: 14px;
-  background: -webkit-linear-gradient(bottom, #fafafa, #0400ff);
+  background-image: linear-gradient(to right, deeppink, dodgerblue);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: transparent;
   text-align: right;
   font-weight: bold;
+  position: relative;
+  left: 275%
 }
 
 .second-title {  
@@ -86,8 +89,8 @@ body {
   width: 3px;
   height: 200px;
   background:#fff;
-  margin-top: 8%;
-  margin-left: 48%;
+  margin-top: 8.5%;
+  margin-left: 47%;
 }
 
 .first-circle {
@@ -97,7 +100,7 @@ body {
   border-radius: 50%;
   border: 5px solid #29d1f3;
   margin-top: 6%;
-  margin-left: 47.2%;
+  margin-left: 46.3%;
   position: absolute;
 
 }
@@ -105,10 +108,10 @@ body {
 .second-line {
   position: absolute;
   width: 3px;
-  height: 160px;
+  height: 180px;
   background:#fff;
-  margin-top: 5%;
-  margin-left: 48%;
+  margin-top: 4.5%;
+  margin-left: 47%;
 }
 
 .second-circle {
@@ -118,6 +121,6 @@ body {
   border-radius: 50%;
   position: absolute;
   margin-top: 2%;
-  margin-left: 47.3%;
+  margin-left: 46.3%;
 }
 
