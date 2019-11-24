@@ -1,14 +1,15 @@
 body {
   background-color: #17202a;
   font-family: Verdana;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 7.5%;
+  margin-right: 7.5%;
 }
 
 .headline {
   color: #29d1f3;
-  font-size: 24px;
+  font-size: 22px;
   text-align: center;
+  padding-top: 2.5%;
 }
 
 .first-article {
@@ -16,30 +17,9 @@ body {
   list-style-type: none;
 }
 
-.second-article {
-  position: relative;
-  list-style-type: none;
-  top: 30%;
-}
-
 .first-article li:first-child{
   padding-right: 55%;
 }
-
-.first-article li:last-child {
-  padding-left: 55%;
-  margin-top: -15%;
-}
-
-.second-article li:first-child{
-  width: 150px;
-}
-
-.second-article li:last-child {
-  padding-left: 55%;
-  margin-top: -3%;
-}
-
 
 .first-title {
   color: #29d1f3;
@@ -52,25 +32,67 @@ body {
   text-align: right;
 }
 
-.first-date {
+.first-article li:last-child {
+  padding-left: 55%;
+  margin-top: -18%;
   width: 150px;
+  position: relative;
+}
+
+.first-date {
   font-size: 14px;
+  text-align: left;
+  font-weight: bold;
   background-image: linear-gradient(to right, deeppink, dodgerblue);
   -webkit-background-clip: text;
   color: transparent;
-  text-align: left;
-  font-weight: bold;
+}
+
+.first-line {
+  position: absolute;
+  top: 26%;
+  left: 52%;
+  width: 3px;
+  height: 180px;
+  background:#fff;
+}
+
+.first-circle {
+  position: absolute;
+  top: 21%;
+  left: 51.3%;
+  width: 15px;
+  height: 15px;
+  background: #17202a;
+  border-radius: 50%;
+  border: 5px solid #29d1f3;
+}
+
+.second-article {
+  position: relative;
+  list-style-type: none;
+  top: 30%;
+}
+
+.second-article li:first-child{
+  width: 150px;
 }
 
 .second-date {
+  position: absolute;
+  top: -5%;
+  left: 37%;
   font-size: 14px;
+  text-align: right;
+  font-weight: bold;
   background-image: linear-gradient(to right, deeppink, dodgerblue);
   -webkit-background-clip: text;
   color: transparent;
-  text-align: right;
-  font-weight: bold;
-  position: relative;
-  left: 275%
+}
+
+.second-article li:last-child {
+  padding-left: 55%;
+  margin-top: -3%;
 }
 
 .second-title {  
@@ -84,43 +106,21 @@ body {
   text-align: left;
 }
 
-.first-line {
+.second-line {
   position: absolute;
+  top: 25%;
+  left: 52.3%;
   width: 3px;
   height: 200px;
   background:#fff;
-  margin-top: 8.5%;
-  margin-left: 47%;
-}
-
-.first-circle {
-  width: 15px;
-  height: 15px;
-  background: #17202a;
-  border-radius: 50%;
-  border: 5px solid #29d1f3;
-  margin-top: 6%;
-  margin-left: 46.3%;
-  position: absolute;
-
-}
-
-.second-line {
-  position: absolute;
-  width: 3px;
-  height: 180px;
-  background:#fff;
-  margin-top: 4.5%;
-  margin-left: 47%;
 }
 
 .second-circle {
+  position: absolute;
+  top: 2%;
+  left: 51.5%;
   width: 22px;
   height: 22px;
   background-color: #29d1f3;
   border-radius: 50%;
-  position: absolute;
-  margin-top: 2%;
-  margin-left: 46.3%;
 }
-
