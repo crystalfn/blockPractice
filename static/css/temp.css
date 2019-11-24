@@ -5,83 +5,122 @@ body {
 
 .container {
   display: flex;
+  height: 100%;
 }
 
 aside {
-  display: block;
-  position: fixed;
   left: 0;
   top: 0;
-  width: 450px;
-  height: 100%;
   overflow: hidden;
+  display: flex;
+
+  width: 300px;
+  height: 100%;
 }
 
-.filter {
+.img {
   position: absolute;
   z-index: -1;
   left: -1rem;
   top: -1rem;
   width: 110%;
   height: 110%;
-  background-size:cover;
-  background-image: url("../images/city.jpg");
+  background-size: cover;
+  background-image: url(../images/city.jpg);
   filter: blur(10px) opacity(0.9);
 }
 
-.user-profile {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  margin-top: 50px;
+.block-show {
+  /* flex-grow: 1; */
+  /* z-index: 2; */
+
+  background-color: #fff;
+  overflow-y: scroll;
 }
 
-.img-photo {
-  height: 150px;
+.user-profile {
+  position: fixed;
+  padding-top: 0;
+
+  width: 30%;
+  height: 40%;
+}
+
+.user-pic {
+  display: flex;
+  margin-top: 10%;
+
+  width: 100%;
+  height: 45%;
+}
+
+.user-pic img {
+  display: block;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  width: 40%;
   border-radius: 100%;
 }
 
 .user-name {
-  margin-top: 40px;
-  font-size: 22px;
+  text-align: center;
+  margin-top: 10%;
+
+  font-size: 1.4em;
+
   color: white;
 }
 
 .user-desc {
-  margin-top: -5px;
-  font-size: 16px;
-  color: white;
+  text-align: center;
+  width: 100%;
+  margin-top: 5%;
+
+  font-size: 1.2em;
+
+  color: whitesmoke;
 }
 
-.sidebar-manu {
-  display: flex;
-  justify-content: center;
+.sidebar-manu-left {
+  position: fixed;
+  top: 40%;
+  width: 30%;
+  margin-left: -5%;
+  margin-top: 3%;
+
+  font-size: 1.1em;
+  list-style-type: none;
 }
 
-.sidebar-manu-left,
 .sidebar-manu-right {
-  margin-top: 20px;
-  margin-left: -30px;
+  position: fixed;
+  top: 40%;
+  width: 30%;
+  margin-left: 7.5%;
+  margin-top: 3%;
+
   font-size: 1.1em;
   list-style-type: none;
 }
 
 .sidebar-manu-left li,
 .sidebar-manu-right li {
-  display: flex;
-  align-items: center;
-  margin-top: 40px
+  margin: 0 0 10% 25%;
 }
 
 .sidebar-manu-left li img,
 .sidebar-manu-right li img {
-  height: 40px;
-  margin-right: 20px;
+  width: 10%;
+  margin-bottom: -3%;
 }
 
 .sidebar-manu-left li a,
 .sidebar-manu-right li a {
+  text-align: left;
+  padding-bottom: 25px;
+
   letter-spacing: 0.1ch;
   text-decoration: none;
   font-family: "sans-serif";
@@ -90,16 +129,12 @@ aside {
   color: #f2f3f4;
 }
 
-.blog-show {
-  margin-left: 520px;
-  overflow: hidden;
-}
-
 .main-article {
   display: block;
   font-family: "sans-serif";
-  margin-top: 20px;
-  margin-right: 20px;
+  margin-top: 3%;
+  margin-left: 10%;
+  margin-right: 5%;
 }
 
 .main-headline {
@@ -129,17 +164,19 @@ aside {
 }
 
 .main-article img {
-  padding-top: 5px;
+  padding-top: 2%;
   width: 98%;
-  height: 400px;
+  height: 35%;
 }
 
 .list-article {
   display: block;
   font-family: sans-serif;
-  margin-top: 20px;
-  margin-right: 20px;
-  width: 100%;
+  margin-top: 0;
+  margin-left: 10%;
+  margin-right: 6.6%;
+  width: 83.3%;
+  height: 30%;
 }
 
 .list-article a {
@@ -148,7 +185,7 @@ aside {
 }
 
 .blog-block-down {
-  margin-left: 20px;
+  padding-left: 3.7%;
 }
 
 .blog-block-up-left {
@@ -190,7 +227,7 @@ aside {
   color: #9eabb3;
   font-size: 14px;
   font-weight: normal;
-  margin: -2px 0 10px 20px;
+  margin-top: 1.5%;
 }
 
 .blog-paragraph {
@@ -205,46 +242,8 @@ aside {
 }
 
 @media screen and (max-width: 1200px) {
-  aside {
-    display: block;
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100px;
-    height: 100%;
+  /* aside {
     overflow: hidden;
-  }
-
-  .blog-show {
-    margin-left: 150px;
-    overflow: hidden;
-  }
-
-  .img-photo {
-    height: 60px;
-    border-radius: 100%;
-  }
-
-  .user-name,
-  .user-desc,
-  .sidebar-manu-left li a,
-  .sidebar-manu-right li a {
-    display: none
-  }
-
-  .sidebar-manu-left li img,
-  .sidebar-manu-right li img {
-    height: 30px;
-    margin-right: 20px;
-  }
-
-  .sidebar-manu {
-    display: flex;
-    flex-direction: column;
-    margin-left: 20px;
-  }
-
-  .sidebar-manu-right {
-    margin-top: -20px;
-  }
+    width: 50%;
+  } */
 }
