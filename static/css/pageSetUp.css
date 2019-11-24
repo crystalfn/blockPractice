@@ -135,10 +135,12 @@ aside {
 }
 
 .list-article {
-  display: block;
+  display: flex;
+  flex-direction: column;
   font-family: sans-serif;
   margin-top: 20px;
   margin-right: 20px;
+  margin-bottom: 20px;
   width: 100%;
 }
 
