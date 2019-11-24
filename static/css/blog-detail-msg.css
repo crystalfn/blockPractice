@@ -19,6 +19,11 @@ header {
   flex-grow: 0;
 }
 
+.list {
+  margin: 5px 10px;
+  height: 50px;
+}
+
 .nav-desc {
   flex-grow: 1;
   text-align: center;
@@ -27,11 +32,6 @@ header {
   font-size: 1.2em;
 
   color: #666;
-}
-
-.list {
-  margin: 5px 10px;
-  height: 50px;
 }
 
 .photo {
