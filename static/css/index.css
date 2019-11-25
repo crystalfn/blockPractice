@@ -137,7 +137,7 @@ aside {
 .list-article {
   display: flex;
   flex-direction: column;
-
+  font-family: sans-serif;
   margin: 30px 0 10px 0;
 }
 
