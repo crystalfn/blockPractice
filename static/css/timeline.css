@@ -9,16 +9,19 @@ body {
   color: #29d1f3;
   font-size: 22px;
   text-align: center;
-  padding-top: 2.5%;
+  position: relative;
+  top: 5%;
 }
 
 .first-article {
-  padding-top: 5%;
   list-style-type: none;
 }
 
 .first-article li:first-child{
-  padding-right: 55%;
+  position: absolute;
+  top: 17%;
+  right: 52%;
+  left: 12%;
 }
 
 .first-title {
@@ -33,15 +36,15 @@ body {
 }
 
 .first-article li:last-child {
-  padding-left: 55%;
-  margin-top: -18%;
+  position: absolute;
+  top: 18%;
+  left: 56%; 
+  float: right;
   width: 150px;
-  position: relative;
 }
 
 .first-date {
   font-size: 14px;
-  text-align: left;
   font-weight: bold;
   background-image: linear-gradient(to right, deeppink, dodgerblue);
   -webkit-background-clip: text;
@@ -50,16 +53,16 @@ body {
 
 .first-line {
   position: absolute;
-  top: 26%;
+  top: 24.5%;
   left: 52%;
-  width: 3px;
-  height: 180px;
+  width: 3.5px;
+  height: 230px;
   background:#fff;
 }
 
 .first-circle {
   position: absolute;
-  top: 21%;
+  top: 20%;
   left: 51.3%;
   width: 15px;
   height: 15px;
@@ -69,21 +72,18 @@ body {
 }
 
 .second-article {
-  position: relative;
   list-style-type: none;
-  top: 30%;
 }
 
 .second-article li:first-child{
+  position: absolute;
+  top: 55%;
+  right: 50%;
   width: 150px;
 }
 
 .second-date {
-  position: absolute;
-  top: -5%;
-  left: 37%;
   font-size: 14px;
-  text-align: right;
   font-weight: bold;
   background-image: linear-gradient(to right, deeppink, dodgerblue);
   -webkit-background-clip: text;
@@ -91,8 +91,11 @@ body {
 }
 
 .second-article li:last-child {
-  padding-left: 55%;
-  margin-top: -3%;
+  position: absolute;
+  top: 55%;
+  right: 12%;
+  left: 56%;
+  float: right;
 }
 
 .second-title {  
@@ -108,19 +111,64 @@ body {
 
 .second-line {
   position: absolute;
-  top: 25%;
-  left: 52.3%;
-  width: 3px;
-  height: 200px;
+  top: 61%;
+  left: 52%;
+  width: 3.5px;
+  height: 230px;
   background:#fff;
 }
 
 .second-circle {
   position: absolute;
-  top: 2%;
-  left: 51.5%;
+  top: 57%;
+  left: 51.3%;
   width: 22px;
   height: 22px;
   background-color: #29d1f3;
   border-radius: 50%;
 }
+
+@media screen and (max-width: 1000px) {
+  .first-article li:first-child{
+    top: 25%;
+    left: 15%;
+    right: 10%;
+  }
+
+  .first-title {
+    text-align: left;
+  }
+
+  .first-desc {
+    text-align: left;
+  }
+
+  .first-article li:last-child {
+    left: 15%; 
+  }
+
+  .first-line {
+    left: 12%;
+  }
+
+  .first-circle {
+    left: 11.3%;
+  }
+
+  .second-article li:first-child{
+    left: 15%;
+  }
+
+  .second-article li:last-child {
+    top: 63%;
+    right: 10%;
+    left: 15%;
+  }
+
+  .second-line {
+    left: 12%;
+  }
+
+  .second-circle {
+    left: 11.3%;
+  }
